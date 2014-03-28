@@ -135,7 +135,7 @@ function drawLoop( time ) {
 	    	
 	    	this.timer = this.game.time.events.loop(1500, this.add_row_of_pipes, this);
 
-	    	this.score = 0;
+	    	this.score = -1;
 	    	var style = { font: "30px Arial", fill: "#ffffff" };
 	    	this.label_score = this.game.add.text(20, 20, "0", style);
 
