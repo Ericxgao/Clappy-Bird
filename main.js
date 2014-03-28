@@ -109,7 +109,7 @@ function drawLoop( time ) {
 	    add_one_pipe: function(x, y) {
 	    	var pipe = this.pipes.getFirstDead();
 	    	pipe.reset(x, y);
-	    	pipe.body.velocity.x = -200
+	    	pipe.body.velocity.x = -150
 	    	pipe.outOfBoundsKill = true;
 	    },
 
