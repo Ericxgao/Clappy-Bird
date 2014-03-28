@@ -152,7 +152,7 @@ function drawLoop( time ) {
 	    },
 
 	    jump: function() {
-	    	this.bird.body.velocity.y = -210;
+	    	this.bird.body.velocity.y = -340;
 	    },
 
 	    restart_game: function() {
