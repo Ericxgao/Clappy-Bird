@@ -3,25 +3,32 @@
     
 <head>
   <meta charset="utf-8" />
-  <title>Clappy Bird</title>
+  <title>Flappy Bird Clone</title>
 
   <style>
-    #game_div {
+    #game_div, p {
       width: 400px;
       margin: auto;
-      margin-top: 50px;
+      margin-top: 20px;
     }
   </style>
-  
-  
+
+  <script type="text/javascript" src="phaser.min.js"></script>
+  <script type="text/javascript" src="load.js"></script>
+  <script type="text/javascript" src="menu.js"></script>
+  <script type="text/javascript" src="play.js"></script>
+  <script type="text/javascript" src="game.js"></script>
   <script type="text/javascript" src="phaser.min.js"></script>
   <script type="text/javascript" src="volume-meter.js"></script>
-  <script type="text/javascript" src="main.js"></script>
 </head>
 
 <body>
+
+  <p>Clap to jump</p>
+
   <canvas id="meter" width="500" height="50"></canvas>
   <div id="game_div"> </div>
+
 
 </body>
 
