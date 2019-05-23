@@ -65,7 +65,7 @@ function gotStream(stream) {
     var mediaStreamSource = audioContext.createMediaStreamSource(stream);
 
     // Create a new volume meter and connect it.
-	meter = createAudioMeter(audioContext);
+	meter = createAudioMeter(audioContext, 0.5);
 	mediaStreamSource.connect(meter);
 
     // kick off the visual updating
